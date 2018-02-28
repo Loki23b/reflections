@@ -1,0 +1,23 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	Hidden folder .git with git metadata got created and now this folder is
+	a repository with 0 commits.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	Staging area exists only in memory and git metadata. It is neather whole
+	repository nor directory. It offers control on what to add and what not
+	to add to commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	I can add only some of changed files to staging arrea before commit
+	and then others for another commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When i need to make many changes to two versions separetly. I can create
+	branch for each version with each own history of commits and i can 
+	switch between them with checkout command.
+
+	
