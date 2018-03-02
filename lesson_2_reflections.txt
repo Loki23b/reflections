@@ -20,4 +20,14 @@ What are some situations when branches would be helpful in keeping your history 
 	branch for each version with each own history of commits and i can 
 	switch between them with checkout command.
 
+How do the diagrams help you visualize the branch structure?
 	
+	I don't know. I drawing branches so this helps.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	Result is all changes from both branches included. But i have doubts about dependencies. What if someone deletes something others depend on.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Automatic is fast, manual is safe. But i stil not convinced that git can recognize dependancy issues.		
